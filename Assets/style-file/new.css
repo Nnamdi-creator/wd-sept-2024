@@ -1,0 +1,16 @@
+main section h2 {
+    color: green;
+}
+nav ul li a {
+    color: red;
+}
+*{
+    background-color: black;
+}
+#my-id{
+    color: yellow;
+}
+footer p {
+    color: orange;
+}
+.my-class p b {color: white;}
