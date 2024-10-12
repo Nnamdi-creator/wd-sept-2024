@@ -1,0 +1,13 @@
+*{
+    background-color:gray;
+}
+#table-Id{
+    border-style:double;color: black;width: 50%;
+    border: 10px; 
+}
+.round img{
+    height: 100px;
+    width: 200px;
+    border: 1px;
+    border-radius: 20px;
+}
