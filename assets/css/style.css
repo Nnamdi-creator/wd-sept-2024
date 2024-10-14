@@ -1,13 +1,33 @@
 *{
     background-color:gray;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 #table-Id{
     border-style:double;color: black;width: 50%;
     border: 10px; 
 }
 .round img{
-    height: 100px;
+    height: 200px;
     width: 200px;
-    border: 1px;
-    border-radius: 20px;
+    border-radius: 50%;
+}
+
+h1,h2{
+    text-shadow: 2px 3px whitesmoke;
+    color: black;
+   font-size: 3em;
+}
+
+*{
+    padding: 20px;
+    margin:1px auto;
+    text-decoration: none;
+}
+    
+.my-space img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
 }
