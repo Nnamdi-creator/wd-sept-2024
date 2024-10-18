@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+main{
+    max-width: 100%;
+    min-height: 100vh;
+    background-color: black;
+    display: grid;
+    padding: 10px;
+    margin: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1em;
+}
+main div{
+    background-color: purple;
+}
+main div:nth-child(1){
+   background-color: red;
+    grid-row: 1/4;
+}
+main div:nth-child(4){
+    background-color: green;
+    grid-column: 2/3;
+    grid-row: 2/5;
+}
+main div:nth-child(3){
+    background-color: blue;
+    grid: column 1px / 4px;
+    grid-row: 1/4;
+}
+main div img{
+    height: 100%;
+    width: 100%;
+}

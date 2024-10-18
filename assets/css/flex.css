@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    max-width: 100%;
+    min-height: 90vh;
+    background-color: lightseagreen;
+    padding: 10px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+main div{
+    height: 200px;
+    width: 200px;
+    background-color: gray;
+    margin: 20px;
+}
+main div img{
+    height: 100%;
+    width: 100%;
+    border: 2px solid whitesmoke;
+}
+h1{
+    text-align: center;
+    background-color: lightseagreen;
+    color: white;
+    max-width: 100%;
+    margin:auto;
+    padding: 10px;
+
+}
