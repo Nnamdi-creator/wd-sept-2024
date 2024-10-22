@@ -1,48 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Web Template</title>
-    <link rel="stylesheet" href="./Assets/Css/style.css">
-</head>
-<body>
-    <div class="container">
-        <div>
-            <div class="logo">LOGO</div>
-            <nav>
-                <ul>
-                    <li><a href="."></a>home</li>
-                    <li><a href="about.html"></a>about</li>
-                    <li><a href="gallery.html"></a>gallery</li>
-                    <li><a href="booking.html"></a>booking</li>
-                    <li><a href="contact.html"></a>contact</li>
-                </ul>
-            </nav>
-        <div class="menu">
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./assets/css/style.css" />
+        <title>My Portfolio</title>
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <div class="logo">
+                    <img src="./assets/img/logo/logo.png" alt="" />
+                </div>
+                <div class="nav">
+                    <ul>
+                        <li><a href=".">home</a></li>
+                        <li><a href="#about">about me</a></li>
+                        <li><a href="#skills">skills</a></li>
+                        <li><a href="#project">projects</a></li>
+                        <li><a href="#contact">contact me</a></li>
+                    </ul>
+                </div>
+                <div class="menu">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+            </div>
+            <div>
+                <img src="./Assets/img/misc/project 1.jpg" alt="" />
+
+                <div class="internal-nav">
+                    <ul>
+                        <li><a href=".">home</a></li>
+                        <li><a href="#about">about me</a></li>
+                        <li><a href="#skills">skills</a></li>
+                        <li><a href="#project">projects</a></li>
+                        <li><a href="#contact">contact me</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="skills">
+                <h1>Skills</h1>
+            </div>
+            <div>HTML</div>
+            <div>CSS</div>
+            <div>JAVASCRIPT</div>
+            <div>REACT</div>
+            <div>
+                <!-- Poition the following inside the image -->
+                 <img src="./Assets/img/misc/project 1.jpg" alt="" />
+                <div id="project"> 
+                    <h1>Project One</h1>
+                    <ul>
+                        <li>URL: www.mysite.com</li>
+                        <li>Client: ABC LIMITED</li>
+                        <li>Date: June 2024</li>
+                        <li>Project Type: Website</li>
+                    </ul>
+                </div>
+                <!-- Position the above inside the image --> 
+            </div>
+
+            <div>
+                <h1>Contact Me</h1>
+                <form action="">
+                    <label for="">Name</label>
+                    <input type="text" name="" id="" />
+                    <label for="">Phone</label>
+                    <input type="tel" name="" id="" />
+                    <label for="">Email</label>
+                    <input type="email" />
+                    <label for="">Message</label>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                    <input type="submit" value="Send Message" />
+                </form>
+            </div>
+            <div>
+                <div><img src="./Assets/img/LOGO/logo.png" alt="" /></div>
+                <!-- Dusplicate and link to skills -->
+                <div><a href="#skills"></a> skills</div>
+            </div>
         </div>
-        </div>
-        <div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-        <div></div>
-        <div>
-            <div></div>
-            <div></div>
-        </div>
-        <div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-    </div>
-</body>
+    </body>
 </html>
