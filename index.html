@@ -1,87 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="./Assets/Css/style.css" />
-        <title>My Portfolio</title>
-    </head>
-    <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum-Vitae</title>
+    <link rel="stylesheet" href="./Assets/css/bootstrap.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark fixed-top">
         <div class="container">
-            <div>
-                <div class="logo">
-                    <img src="./assets/img/logo/logo.png" alt="" />
-                </div>
-                <div class="nav">
-                    <ul>
-                        <li><a href=".">home</a></li>
-                        <li><a href="#about">about me</a></li>
-                        <li><a href="#skills">skills</a></li>
-                        <li><a href="#project">projects</a></li>
-                        <li><a href="#contact">contact me</a></li>
-                    </ul>
-                </div>
-                <div class="menu">
-                    <div class="line"></div>
-                    <div class="line"></div>
-                    <div class="line"></div>
-                    <div class="line"></div>
-                </div>
-            </div>
-            <div>
-                <img src="./Assets/img/misc/project 1.jpg" alt="" />
-
-                <div class="internal-nav">
-                    <ul>
-                        <li><a href=".">home</a></li>
-                        <li><a href="#about">about me</a></li>
-                        <li><a href="#skills">skills</a></li>
-                        <li><a href="#project">projects</a></li>
-                        <li><a href="#contact">contact me</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div id="skills">
-                <h1>Skills</h1>
-            </div>
-            <div>HTML</div>
-            <div>CSS</div>
-            <div>JAVASCRIPT</div>
-            <div>REACT</div>
-            <div>
-                <!-- Poition the following inside the image -->
-                 <img src="./Assets/img/misc/project 1.jpg" alt="" />
-                <div id="project"> 
-                    <h1>Project One</h1>
-                    <ul>
-                        <li>URL: www.mysite.com</li>
-                        <li>Client: ABC LIMITED</li>
-                        <li>Date: June 2024</li>
-                        <li>Project Type: Website</li>
-                    </ul>
-                </div>
-                <!-- Position the above inside the image --> 
-            </div>
-
-            <div>
-                <h1>Contact Me</h1>
-                <form action="">
-                    <label for="">Name</label>
-                    <input type="text" name="" id="" />
-                    <label for="">Phone</label>
-                    <input type="tel" name="" id="" />
-                    <label for="">Email</label>
-                    <input type="email" />
-                    <label for="">Message</label>
-                    <textarea name="" id="" cols="30" rows="10"></textarea>
-                    <input type="submit" value="Send Message" />
-                </form>
-            </div>
-            <div>
-                <div><img src="./Assets/img/LOGO/logo.png" alt="" /></div>
-                <!-- Dusplicate and link to skills -->
-                <div><a href="#skills"></a> skills</div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-arial-target="#navbarNav" 
+            arial-expanded="false" aria-label="Toogle Navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto text-light">
+                    <li class="nav-item">
+                        <a class="nav-link" href="" id="home">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="" id="about me">ABOUT ME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="" id="skills">SKILLS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="" id="contact">CONTACT</a>
+                    </li>
+                </ul>
             </div>
         </div>
-    </body>
+    </nav>
+    <header class="bg-primary text-light justify-content-center align-items-center d-flex text-center" style="background-image:url(./Assets/img/profile.jpg); background-size: cover;
+     background: position 100%;; min-height:100vh;">
+    </header>
+    <section class="py-5">
+        <div class="container text-center">
+            <h1 class="mb-5">SERVICES</h1>
+        </div>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="p-4 border rounded shadow-lg"> <h3>ABOUT ME</h3>
+                <p>My name is John and I am a software developer. I am 30 years of age and hold a Bsc.in Nanotechnology which I acquired at Harvard University. </p>
+            </div>   
+            </div>
+            <div class="col-md-4">
+                <div class="p-4 border rounded shadow-lg"> <h3>SKILLS</h3>
+                <p>
+                    <ul style="list-style-type: none;">
+                        <li>Front-End Development</li>
+                        <li>Statistical Analysis</li>
+                        <li>Cyber Security Consultant</li>
+                    </ul>
+                </p>
+            </div>   
+            </div>
+            <div class="col-md-4">
+                <div class="p-4 border rounded shadow-lg"> <h3>CONTACT</h3>
+                <p> <form action="">
+                    <label for="">NAME</label>
+                    <input type="text"><br>
+                    <label for="">PHONE</label>
+                    <input type="number"><br>
+                    <label for="">E-MAIL</label>
+                    <input type="email" placeholder="Enter your E-mail"><br>
+                    <button>SEND</button>
+                </form> </p>
+            </div>   
+            </div>
+        </div>
+    </section>
+    <footer class="bg-dark text-center py-5 text-light">
+        <div class="container">
+            <p>&copy;2024 All Rights Reserved</p>
+        </div>
+    </footer>
+</body>
 </html>
